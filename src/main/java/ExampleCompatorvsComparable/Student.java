@@ -4,18 +4,18 @@ public class Student implements Comparable<Student>{
 
     private String name;
     private int years;
-    private int courses;
+    private int course;
 
     public Student(int years, String name, int courses) {
 
         this.years = years;
         this.name = name;
-        this.courses = courses;
+        this.course = courses;
     }
 
     @Override
     public String toString(){
-        return "Student-> Name:"+name+" Years:"+years+" Courses:"+courses;
+        return "Student-> Name:"+name+" Years:"+years+" Course:"+course;
 
     }
     @Override
@@ -31,7 +31,7 @@ public class Student implements Comparable<Student>{
     return name;}
 
     public int getCourses() {
-        return courses;
+        return course;
     }
 
 }

@@ -98,7 +98,7 @@ the order
 
 projects keys to values. A map cannot contain duplicate keys; each key can project at most one value
 
-SortedMap:
+- SortedMap:
  
 sorted version of Map, keeps the projections in ascending order of braces
 

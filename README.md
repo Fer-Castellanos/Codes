@@ -89,6 +89,19 @@ Java LinkedHashSet class is a Hash table and Linked list implementation of the s
 
 TreeSet class implements the Set interface that uses a tree for storage. The objects of this class are stored in the ascending order. Also, it inherits AbstractSet class and implements NavigableSet interface. It contains only unique elements like HashSet. In TreeSet class, access and retrieval time are faster.
 
+- SortedSet :
+
+is an ordered version of Set that keeps items in ascending order.Provides additional operations to take advantage of
+the order
+
+- Map : 
+
+projects keys to values. A map cannot contain duplicate keys; each key can project at most one value
+
+SortedMap:
+ 
+sorted version of Map, keeps the projections in ascending order of braces
+
 Links of information:
 https://www.edureka.co/blog/java-collections/
 

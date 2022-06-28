@@ -1,5 +1,5 @@
-package ExampleCollectors;
-//Programa 1: Para demostrar MaxBy() usando naturalOrder()
+package ExampleCollectorsMax;
+//Programa 2: Para demostrar MaxBy() usando reverseOrder()
 // Java code to show the implementation of
 // Collectors maxBy(Comparator comparator) function
 
@@ -8,22 +8,22 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class MaxBy {
+public class MaxBy2 {
 
     // Driver code
     public static void main(String[] args)
     {
+
         // creating a Stream of strings
-        Stream<String> s = Stream.of("2", "3", "4", "5");
+        Stream<String> s = Stream.of();
 
         // using Collectors maxBy(Comparator comparator)
         // and finding the maximum element
         // in reverse order
-
         Optional<String> obj = s
-                                         .collect(Collectors
-                                                       .maxBy(Comparator
-                                                                  .reverseOrder()));
+                .collect(Collectors
+                        .maxBy(Comparator
+                                .reverseOrder()));
 
         // if present, print the element
         // else print the message
@@ -35,5 +35,4 @@ public class MaxBy {
         }
     }
 
-
-    }
+}

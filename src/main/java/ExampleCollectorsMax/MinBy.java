@@ -1,4 +1,4 @@
-package ExampleCollectors;
+package ExampleCollectorsMax;
 //Programa 1: Para demostrar minBy() usando naturalOrder()
 // Java code to show the implementation of
 // Collectors minBy(Comparator comparator) function

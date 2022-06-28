@@ -1,4 +1,4 @@
-package ExampleCollectors;
+package ExampleCollectorsMax;
 // Programa 2: Para demostrar minBy() usando reverseOrder()
 // Java code to show the implementation of
 // Collectors minBy(Comparator comparator) function

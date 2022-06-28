@@ -1,4 +1,4 @@
-package ExampleCollectors;
+package ExampleCollectorsMax;
 //Programa 3: Para demostrar minBy() cuando no se pasan valores.
 // Java code to show the implementation of
 // Collectors minBy(Comparator comparator) function

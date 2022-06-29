@@ -103,7 +103,12 @@ projects keys to values. A map cannot contain duplicate keys; each key can proje
 sorted version of Map, keeps the projections in ascending order of braces
 
 Links of information:
+
 https://www.edureka.co/blog/java-collections/
 
 https://personales.unican.es/corcuerp/java/Slides/Collections.pdf
+
+https://www.javatpoint.com/collections-in-java
+
+
 
